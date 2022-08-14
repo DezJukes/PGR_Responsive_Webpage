@@ -1,0 +1,115 @@
+.navbar.navbar-expand-lg {
+    background: #212129;
+}
+
+.ico {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-link.active {
+    color: crimson;
+}
+
+.nav-link {
+    color: white;
+}
+
+a:hover.nav-link {
+    color: crimson;
+}
+
+.bgc {
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    background-color: #141416;
+    color: white;
+}
+
+hr {
+    height: 2px;
+    background-color: white;
+}
+
+.w-100 {
+    color: white;
+}
+
+.ctructs {
+    color: crimson;
+}
+
+.B-rank {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.card-wrapper {
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.card-deck {
+    width: 70%;
+}
+
+.card-wrapper-d {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 67%;
+    display: flex;
+}
+
+.card.portrait {
+    background-color: #28282A;
+    color: white;
+    border-color: crimson;
+}
+
+.container-deck-ad {
+    text-align: center;
+}
+
+.information {
+    background-color: #921131;
+    color: white;
+}
+
+.card-textp {
+    padding-bottom: 48px;
+}
+
+.card-textps {
+    padding-bottom: 25px;
+}
+
+.card-textpsa {
+    padding-bottom: 23px;
+}
+
+.classtype {
+    width: 50px;
+}
+
+.A-rank-C {
+    margin-top: 70px;
+}
+
+.S-rank {
+    margin-top: 110px;
+}
+
+.spce {
+    padding-top: 30px;
+}
+
+.footerps {
+    padding-top: 100px;
+}
