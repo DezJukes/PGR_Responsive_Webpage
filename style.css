@@ -2,13 +2,11 @@
     background: #212129;
 }
 
-/* Adjust icon size for responsiveness */
 .ico {
     width: 40px;
     height: 40px;
 }
 
-/* Ensure that the navbar links change color on hover */
 .nav-link.active {
     color: crimson;
 }
@@ -21,13 +19,11 @@ a:hover.nav-link {
     color: crimson;
 }
 
-/* Use responsive font-sizing */
 .bgc {
     font-family: 'DotGothic16', sans-serif;
     font-family: 'Oswald', sans-serif;
     background-color: #141416;
     color: white;
-    padding: 20px; /* Adding some padding for better mobile view */
 }
 
 hr {
@@ -35,7 +31,6 @@ hr {
     background-color: white;
 }
 
-/* Ensure text and containers scale well on smaller screens */
 .w-100 {
     color: white;
 }
@@ -44,43 +39,38 @@ hr {
     color: crimson;
 }
 
-/* Centered text for ranks */
-.B-rank, h4 {
+.B-rank {
     text-align: center;
 }
 
-/* Flexbox for responsive layout */
-.card-wrapper {
-    display: flex;
-    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
-    justify-content: center;
-    gap: 20px; /* Space between cards */
+h4 {
+    text-align: center;
 }
 
-/* Use percentage for card width to adapt */
+.card-wrapper {
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
 .card-deck {
-    width: 100%;
-    max-width: 1200px; /* Constrain to a max width for larger screens */
+    width: 70%;
 }
 
 .card-wrapper-d {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    width: 100%;
-    max-width: 1000px; /* Constrain to a max width for larger screens */
+    width: 67%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
 }
 
-/* Responsive card styling */
 .card.portrait {
     background-color: #28282A;
     color: white;
     border-color: crimson;
-    flex: 1 1 300px; /* Flex cards to take up available space, with a minimum width */
-    max-width: 300px;
 }
 
 .container-deck-ad {
@@ -92,65 +82,34 @@ hr {
     color: white;
 }
 
-/* Use relative padding */
-.card-textp, .card-textps, .card-textpsa {
-    padding-bottom: 3vw; /* Adjust based on viewport width */
+.card-textp {
+    padding-bottom: 48px;
 }
 
-/* Ensure image width adjusts on smaller screens */
+.card-textps {
+    padding-bottom: 25px;
+}
+
+.card-textpsa {
+    padding-bottom: 23px;
+}
+
 .classtype {
     width: 50px;
 }
 
-.A-rank-C, .S-rank {
-    margin-top: 5vw; /* Adjust based on viewport width */
+.A-rank-C {
+    margin-top: 70px;
 }
 
-/* Use relative spacing */
+.S-rank {
+    margin-top: 110px;
+}
+
 .spce {
-    padding-top: 3vw;
+    padding-top: 30px;
 }
 
 .footerps {
-    padding-top: 10vw;
-}
-
-/* Media queries for mobile responsiveness */
-@media (max-width: 768px) {
-    /* Adjust card width on mobile */
-    .card.portrait {
-        flex: 1 1 100%; /* Cards take full width on small screens */
-    }
-
-    /* Stack elements vertically */
-    .card-wrapper-d, .card-wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    /* Reduce text size for better readability on smaller screens */
-    .w-100, .B-rank, h4 {
-        font-size: 4vw; /* Scale based on viewport width */
-    }
-
-    /* Adjust padding */
-    .bgc {
-        padding: 10px;
-    }
-
-    .footerps {
-        padding-top: 50px;
-    }
-}
-
-@media (max-width: 480px) {
-    /* Even smaller adjustments for very small screens */
-    .w-100, .B-rank, h4 {
-        font-size: 6vw;
-    }
-
-    /* Adjust padding on smaller screens */
-    .card-textp, .card-textps, .card-textpsa {
-        padding-bottom: 5vw;
-    }
-}
+    padding-top: 100px;
+} 
